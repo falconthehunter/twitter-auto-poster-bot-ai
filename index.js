@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate a professional, clever, and slightly gaslighting-style tweet that subtly challenges founders and developers to recognize overlooked Web3 innovation; it should include all these tags in this exact order with nothing after them: @ATTNtoken @bluefinapp @moonbags_io @PawtatoFinance @raidenx_io @Suigar_com @opnetbtc @Scallop_io $REP @GiveRep; keep it under 280 characters and use plain text, emojis allowed";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
